@@ -1,4 +1,3 @@
 hook.Add("CanPlayerSuicide", "BlockSuicide", function(ply)
-    ply:ChatPrint("")
-    return false
+        return false
 end)
